@@ -1,0 +1,32 @@
+git commit = creer les changements
+git add files = ajouter des changements
+git status = suivre les changements
+git add . = selectionne et fait suivre (met en commit) toutes les modifications
+git commit-m "" = laisser un commentaire pour specifier les commande apporte
+git init = lancer l initialisation de git
+
+------
+systeme de version :
+centralise : tous les collaborateurs travaille sur une seule machine et serveur
+distribue : tous les developpeurs disposent du fichier source 
+git est un outil open source creer en 2005 : efficace, rapide, collaborer
+
+-------
+Notion de branche
+permet d avoir une arborescence du travail effectue et de mieux suivre le travail
+ 2 facons de creer une branche : a partir d une autre branche ou a partir de l Etat actuel du 
+travail (git branch plus nom) elle permet aussi de savoir sur quelle branche on est
+git branches : afficher toutes les branches
+Pour passer d une branche a une autre, on utilise git checkout (nom de la branche)
+
+--changer le nom  d une branche
+	git branch -m version4 (ancien nom) version2
+
+-- supprimer une branche
+git branch -d(pour delete) version2
+----
+outils d hebergement de votre code ou projet
+github, gitlab, bitbucket
+--
+gitpush permet d envoyer les modifs realiser sur le depot local vers le depot distant
+hello les gars
