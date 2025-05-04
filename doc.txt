@@ -29,4 +29,10 @@ outils d hebergement de votre code ou projet
 github, gitlab, bitbucket
 --
 gitpush permet d envoyer les modifs realiser sur le depot local vers le depot distant
-Bismilah
+---
+recuperer les modifs
+git pull origin (nom de la branche) permet d appliquer les modifs realiser sur gitup sur vs code
+-- faire passer une branche de locale a distance
+ git push --set-upstream origin (nom de la branche)
+--cloner un projet
+git clone (plus le lien du document)
