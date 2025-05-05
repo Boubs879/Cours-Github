@@ -47,3 +47,13 @@ git checkout -- . permet d annuler des changements
 
 git ignore permet d ignorer un fichier lors de la sauvegarde des modifs
 git merge nom du fichier pour fisionner les differents branches
+git log affiche l historique de tous les commit realiser
+---
+git help --all voir les differentes commande avec git
+ git help (le nom de la commande)
+--- Restaurer l historique des anciennes versions
+git log --online, ensuite tu met git reset (l id de la version interesse)
+Pour recuperer les anciennes versions et annuler les nouvelle
+git reset --hard plus id
+--relier un doc a git up : git remote origin (plus lien de gitup)
+ensuite git remote pour verifier
