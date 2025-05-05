@@ -1,4 +1,4 @@
-git commit = creer les changements
+git commit = enregistre les changement grace a un commentaire
 git add files = ajouter des changements
 git status = suivre les changements
 git add . = selectionne et fait suivre (met en commit) toutes les modifications
@@ -21,6 +21,8 @@ Pour passer d une branche a une autre, on utilise git checkout (nom de la branch
 
 --changer le nom  d une branche
 	git branch -m version4 (ancien nom) version2
+pour supprimer un fichier on fait : git rm --catch (plus nom du fichier) 
+les deux tires permettent de supprimer le fichier de l etat de sauvegarde et non completement
 
 -- supprimer une branche
 git branch -d(pour delete) version2
@@ -28,7 +30,7 @@ git branch -d(pour delete) version2
 outils d hebergement de votre code ou projet
 github, gitlab, bitbucket
 --
-gitpush permet d envoyer les modifs realiser sur le depot local vers le depot distant
+git push origin (plus le nom de la branche) permet d envoyer les modifs realiser sur le depot local vers le depot distant
 ---
 recuperer les modifs
 git pull origin (nom de la branche) permet d appliquer les modifs realiser sur gitup sur vs code
@@ -36,3 +38,12 @@ git pull origin (nom de la branche) permet d appliquer les modifs realiser sur g
  git push --set-upstream origin (nom de la branche)
 --cloner un projet
 git clone (plus le lien du document)
+
+git touch cree un fichier vide ex : git touch index.html
+
+git checkout -- . permet d annuler des changements
+----racourci
+ git add ". fichier ".fichier2
+
+git ignore permet d ignorer un fichier lors de la sauvegarde des modifs
+git merge nom du fichier pour fisionner les differents branches

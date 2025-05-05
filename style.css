@@ -130,6 +130,7 @@ div.logo{
     display: flex;
     gap: 0 20px; 
     flex-wrap: wrap;
+    overflow: hidden;
 
 }
 
@@ -163,6 +164,7 @@ section.sponsors{
 }
 div.ligne{
     line-height: 3rem;
+    
 }
 div.container{
     display: flex;
@@ -366,7 +368,7 @@ div.logo{
     /* padding-right: 10%; */
     position: relative;
     right: 10%;
-    overflow: hidden;
+    
     /* margin-top: 5%; */
 }
 div.mod1{
