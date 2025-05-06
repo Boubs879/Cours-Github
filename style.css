@@ -15,7 +15,7 @@ header{
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     height: 60px;
-    z-index: 999;
+     z-index: 3;
     
 }
 
@@ -258,8 +258,8 @@ div.pictures{
 }
 div.pictures h2{
     width: 30%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+   
     padding: 13px 0;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
@@ -270,8 +270,8 @@ div.pictures h2{
 
 div.pictures p{
     width: 40%; 
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: rgb(80, 75, 75);

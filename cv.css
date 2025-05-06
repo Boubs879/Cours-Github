@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+section.rightleft{
+    display: flex;
+    justify-content: center;
+}
+div.right{
+    width: 30%;
+    background-color: white; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+div.entete{
+    text-align: center;
+    background-color: rgb(52, 52, 103);
+    height: 100px;
+    width: 48%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 4px solid white;
+}
+div.profil{
+    width: 70%;
+    margin: 0 auto;
+    
+}
+div.profil, div.contact{
+    margin-top: 2%;
+    
+}
+div.Projets, div.competences, div.hobbies, 
+div.contact, div.contact, div.formations,
+div.reseau-sociaux{
+    padding-top: 10px;
+}
+p{
+    line-height: 1.6rem;
+}
+div.formations p{
+    width: 45%;
+    margin: 0 auto;
+}
+div.reseau-sociaux p i.fa, div.contact p i.fa{
+    padding: 7px ;
+}
+div.contact p, div.reseau-sociaux p{
+    line-height: 2rem;
+    
+}
+div.left{
+    background-color: rgb(32, 31, 31);
+     width: 250px;
+    height: 600px;
+    text-align: center;
+    z-index: -2;
+    padding-top: 1%;
+}
+div.left p, h2, i.fa{
+    color: white;
+}
+div.left img{
+    object-fit: cover;
+    /* border-radius: 50%; */
+}
+div.right p, h2{
+    color: black;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    letter-spacing: 5px;
+    font-style: normal;
+  
+    
+}
+div.entete p{
+    color: white;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+p{
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+h2{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+div.left h2{
+    color: white;
+}
+div.sidebar{
+    width: 130px;
+    height: 2px;
+    background-color: white;
+    margin: 0 auto;
+}
