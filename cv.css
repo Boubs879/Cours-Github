@@ -74,6 +74,10 @@ div.right p, h2{
     color: black;
     font-weight: 500;
 }
+div.right p{
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+}
 
 h1{
     font-size: 1.7rem;
@@ -90,6 +94,7 @@ div.entete p{
     color: white;
     font-size: 18px;
     font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
 }
 p{
     font-family: "Roboto", sans-serif;
@@ -110,3 +115,14 @@ div.sidebar{
     background-color: white;
     margin: 0 auto;
 }
+div.Projets:hover,div.competences:hover, div.hobbies:hover{
+     h2{
+        color: white;
+        background-color: black;
+        border-radius: 50%;
+    } 
+}
+div.Projets h2, div.competences h2, div.hobbies h2{
+    transition: 2s ease-out;
+}
+
